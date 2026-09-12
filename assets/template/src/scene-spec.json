@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "title": "给专注，留一点空间。",
+  "units": "meters-estimated",
+  "reference": "reference.png",
+  "assumptions": [
+    "桌面高度 0.74 m、总宽 2.8 m 为方案估算，未实测",
+    "桌背与底部结构为补全设计",
+    "收纳盒与理线槽为建议新增，非原图已有"
+  ],
+  "objects": [
+    {
+      "id": "laptop-a",
+      "kind": "laptop",
+      "label": "主笔记本",
+      "position": [
+        -0.8,
+        0.77,
+        -0.4
+      ],
+      "scale": 1.1,
+      "yaw": 0.14,
+      "action": "保留 · 左侧抬高，与副机组成设备区",
+      "source": "原图左侧银色大笔记本",
+      "confidence": "high"
+    },
+    {
+      "id": "laptop-b",
+      "kind": "laptop",
+      "label": "副笔记本",
+      "position": [
+        -0.22,
+        0.77,
+        -0.43
+      ],
+      "scale": 0.82,
+      "yaw": 0.1,
+      "action": "保留 · 与主笔记本并排，收拢电源线",
+      "source": "原图中间小笔记本",
+      "confidence": "high"
+    },
+    {
+      "id": "monitor",
+      "kind": "monitor",
+      "label": "外接显示器",
+      "position": [
+        0.68,
+        0.77,
+        -0.38
+      ],
+      "scale": 1,
+      "yaw": -0.13,
+      "action": "保留 · 右侧主工作区，底座后集中走线",
+      "source": "原图右侧黑色大显示器",
+      "confidence": "high"
+    },
+    {
+      "id": "keyboard",
+      "kind": "keyboard",
+      "label": "机械键盘",
+      "position": [
+        0.85,
+        0.768,
+        0.2
+      ],
+      "scale": 1,
+      "yaw": -0.13,
+      "action": "保留 · 放置在显示器正前方",
+      "source": "原图灰白与橙色键帽键盘",
+      "confidence": "high"
+    },
+    {
+      "id": "mouse",
+      "kind": "mouse",
+      "label": "鼠标区",
+      "position": [
+        1.11,
+        0.773,
+        0.28
+      ],
+      "scale": 1,
+      "yaw": 0,
+      "action": "常用鼠标留桌面，其余备用鼠标收入抽屉",
+      "source": "原图多个鼠标",
+      "confidence": "high"
+    },
+    {
+      "id": "drink",
+      "kind": "drink",
+      "label": "饮水托盘",
+      "position": [
+        -1.16,
+        0.77,
+        -0.08
+      ],
+      "scale": 1,
+      "yaw": 0,
+      "action": "杯子与水瓶集中到左侧托盘；其余饮料按需移出",
+      "source": "原图左右两侧杯瓶",
+      "confidence": "high"
+    },
+    {
+      "id": "files",
+      "kind": "files",
+      "label": "文件与纸巾",
+      "position": [
+        1.22,
+        0.77,
+        -0.46
+      ],
+      "scale": 1,
+      "yaw": 0,
+      "action": "纸张竖放分类，纸巾集中在边角",
+      "source": "原图右下角散放文件与左侧纸巾盒",
+      "confidence": "high"
+    },
+    {
+      "id": "plant",
+      "kind": "plant",
+      "label": "绿植",
+      "position": [
+        -1.14,
+        1.32,
+        -0.72
+      ],
+      "scale": 1,
+      "yaw": 0,
+      "action": "保留一盆于隔板顶，其他绿植保持邻位归属",
+      "source": "原图隔板上绿植",
+      "confidence": "medium"
+    },
+    {
+      "id": "storage",
+      "kind": "storage",
+      "label": "桌下分类收纳",
+      "position": [
+        1.03,
+        0,
+        0.57
+      ],
+      "scale": 1,
+      "yaw": 0,
+      "action": "新增带盖盒与侧柜：包袋、食品、备用线材分开存放",
+      "source": "原图桌下购物袋、食品罐及桌面包袋",
+      "confidence": "medium"
+    },
+    {
+      "id": "cables",
+      "kind": "cables",
+      "label": "隐藏理线",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "yaw": 0,
+      "action": "新增桌后线槽，收束线缆，电源离地固定",
+      "source": "原图桌面交叉线缆及桌下垂线",
+      "confidence": "high"
+    }
+  ]
+}

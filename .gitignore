@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+__pycache__/
+.venv/
+.env
+
+# User-provided photos and generated output
+reference.png
+assets/reference.png
+dist/
