@@ -9,7 +9,7 @@
 - macOS / Linux：`~/.codex/skills/office-workstation-threejs`
 - Windows：`%USERPROFILE%\.codex\skills\office-workstation-threejs`
 
-设置了 `CODEX_HOME` 时使用该目录下的 `skills`。新建任务并确认技能已被发现；NewLink daemon 的技能注入行为见 [接入说明](references/newlink-runtime.md)。
+设置了 `CODEX_HOME` 时使用该目录下的 `skills`。新建任务并确认技能已被发现。技能的建模流程不依赖特定聊天应用或部署服务；其他支持 SKILL.md 的 Agent 可按其技能加载方式使用，尚未逐一验证兼容性。
 
 ## 使用
 
@@ -21,7 +21,7 @@
 
 也可以追加预算、风格等约束。购买建议须另外调研，示例模板不包含实时商品价格服务。
 
-Agent 先实际查看照片，再修改场景描述和 Three.js 几何，最后构建并验证。单张照片生成的是尺寸估算的概念方案，并非精确测量或自动三维重建。
+Agent 先实际查看照片，再修改场景描述、Three.js 几何和页面文案，最后构建并验证。模板中的转角桌与设备组合仅为可编辑示例，需要根据每张新图调整。单张照片生成的是尺寸估算的概念方案，并非精确测量或自动三维重建。
 
 ## 手动运行示例
 
@@ -51,6 +51,5 @@ py -3 scripts/scaffold.py --out ..\workstation-demo --reference "C:\Users\你的
 - `SKILL.md`：工作流、验收和交付约定
 - `assets/template/`：Three.js 源码与锁定依赖
 - `scripts/scaffold.py`：创建独立工程
-- `references/newlink-runtime.md`：NewLink / Multica 接入实测说明
 
 Three.js 的许可见 `assets/template/THREE-LICENSE.txt`。仓库为公共仓库，不附带用户工位照片。
